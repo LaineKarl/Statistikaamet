@@ -2,7 +2,7 @@
 
 ## Ülevaade
 
-Selle projekti eesmärk on luua interaktiivne viktoriinirakendus React raamistikuga, mis kontrollib kasutaja teadmisi valikvastustega küsimuste abil. Lisaks lisatakse rakendusele E2E testid Playwrightiga.
+Selle projekti eesmärk on luua interaktiivne viktoriinirakendus React raamistikuga, mis kontrollib kasutaja teadmisi valikvastustega küsimuste abil.
 
 ---
 
