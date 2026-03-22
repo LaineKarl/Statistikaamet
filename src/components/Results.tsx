@@ -32,8 +32,7 @@ function Results({ userAnswers }: Props) {
             <tr>
               <th>Küsimus</th>
               <th>Sinu vastus</th>
-              <th>Õige vastus</th>
-              <th>Tulemus</th>
+              <th>Vastus</th>
             </tr>
           </thead>
           <tbody>
@@ -41,7 +40,6 @@ function Results({ userAnswers }: Props) {
               <tr key={a.questionId} style={{backgroundColor: a.isCorrect ? "#4DC14D" : "#DC1919"}}>
                 <td>{a.question}</td>
                 <td>{a.selectedAnswer}</td>
-                <td>{a.correctAnswer}</td>
                 <td>{a.isCorrect ? "Õige" : "Vale"}</td>
               </tr>
             ))}
